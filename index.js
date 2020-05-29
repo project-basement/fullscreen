@@ -21,3 +21,5 @@ const toggleFullscreen = () => {
     }
   }
 }
+
+window.navigator.standalone = true;
